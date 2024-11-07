@@ -199,6 +199,12 @@
       <array> 
         <dict>
           <key>match</key>
+          <string>(\@ifdef)</string>
+          <key>name</key>
+          <string>keyword.sleigh</string>
+        </dict>
+        <dict>
+          <key>match</key>
           <string>(\@if)</string>
           <key>name</key>
           <string>keyword.sleigh</string>
@@ -206,6 +212,12 @@
         <dict>
           <key>match</key>
           <string>(\@elif)</string>
+          <key>name</key>
+          <string>keyword.sleigh</string>
+        </dict>
+        <dict>
+          <key>match</key>
+          <string>(\@else)</string>
           <key>name</key>
           <string>keyword.sleigh</string>
         </dict>
@@ -242,6 +254,18 @@
         <dict>
           <key>match</key>
           <string>(context )</string>
+          <key>name</key>
+          <string>keyword.control.module.sleigh</string>
+        </dict>
+        <dict>
+          <key>match</key>
+          <string>(\bwith\b)</string>
+          <key>name</key>
+          <string>keyword.control.module.sleigh</string>
+        </dict>
+        <dict>
+          <key>match</key>
+          <string>(\bmacro\b)</string>
           <key>name</key>
           <string>keyword.control.module.sleigh</string>
         </dict>
